@@ -1,0 +1,580 @@
+.poll-menu > .btn, .poll-menu > input {
+
+    margin-bottom: 10px;
+}
+
+
+
+#cs-csstext {
+    font-size: 11pt;
+
+}
+
+
+#userlisttoggle {
+
+color:orange;
+  animation: testOut 24s infinite;
+}
+
+
+@keyframes testOut {
+  0% { opacity: 0.5; }
+  20% { opacity: 1.0; }
+  40% { opacity: 0.5; }
+  60% { opacity: 1.0; }
+  80% { opacity: 1.0; }
+ 100% { opacity: 0.5; }
+}
+
+
+
+
+
+
+
+
+
+
+.emote-preview {
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+box-shadow: 0px 0px white, 0em 0 0.4em white; 
+}
+
+
+.emote-preview-hax {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+.emotelist-table {
+    margin: auto;
+  transform: scale(0.95);
+}
+
+
+.emotelist-paginator-container {
+    text-align: center;
+
+
+    margin-top: 0pt;
+    margin-bottom: 5pt;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+box-shadow: 0px 0px white, 0em 0 2.0em white; 
+
+
+}
+
+
+.emote-preview-container {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    margin: 3px;
+}
+
+
+
+.channel-emote
+{
+  max-width: 85px;
+  max-height: 65px;
+    opacity: 1.000;
+  animation: fadeOut 2600s forwards;
+
+}
+
+
+.channel-emote:hover {
+  opacity: 1.00;
+    position: relative;
+  transform: scale(7.5);
+    padding-left: 40px;
+    padding-bottom: 15px;
+
+    z-index: 100;
+
+}
+
+
+
+.channel-emote:active {
+  transform: scale(0.01); /* Reset scale on click */
+  pointer-events: none; /* Disable hover effect temporarily */
+  transition: transform 0.1s, pointer-events 5s; /* Smooth transition and delay re-enabling hover */
+}
+
+.channel-emote {
+  transition: transform 0.1s, pointer-events 5s; /* Smooth transition and delay re-enabling hover */
+
+}
+
+
+
+
+
+@keyframes rotateFadeOut {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+transform: scale(8.5);
+    z-index: 100;
+  }
+  10% {
+    opacity: 1.0;
+    transform: rotate(0deg);
+transform: scale(8.5);
+    z-index: 100;
+  }
+  30% {
+    opacity: 0.9;
+    transform: rotate(0deg);
+transform: scale(6.5);
+    z-index: 100;
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(0deg);
+transform: scale(1.0);
+    z-index: 100;
+  }
+  100% {
+    opacity: 0.3;
+transform: scale(0.6);
+    z-index: 100;
+
+  }
+}
+
+
+
+
+
+
+
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  2% { opacity: 1; }
+  4% { opacity: 0.98; }
+  20% { opacity: 0.80; }
+  50% { opacity: 0.25; }
+ 100% { opacity: 0.15; }
+}
+
+
+
+.channel-emote.gif {
+  animation: fadeOut 60s forwards;
+}
+
+
+
+
+#userlist {
+    width: 80px;
+    float: right;
+    border-right: 0;
+    font-size: 8pt;
+    list-style: none outside none;
+    padding-bottom: 5px;
+
+    padding-top: 30px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.username {     
+
+background-color: #111111; 
+    text-shadow: 1px 1px 7px rgba(0,0,0,5.0);
+    font-size: 13pt;
+font-weight: bold;
+box-shadow: 0px 0px grey, 0em 0 .1em white;
+
+}
+
+
+
+
+.username::before {
+    content: "";
+
+}
+
+
+
+
+
+
+.userlist_owner {
+
+    color: #ff0000!important;
+font-weight: bold;
+    text-shadow: 0 0px 1px rgba(255,0,0,0.9);
+    font-size: 11pt;
+
+}
+
+
+.userlist_op {
+    color: cyan!important;
+}
+
+
+
+.userlist_owner::before {
+
+    content: "";
+  opacity: 1.0;
+    color: #8B0000!important;
+
+
+background-color: none; 
+    font-size: 8pt;
+
+}
+
+
+
+
+.userlist_guest {
+    color:  #555555!important;
+
+}
+
+
+
+
+
+.userlist_guest::before {
+
+    content: "[unregistered] ";
+
+}
+
+.userlist_op::before {
+
+    content: "";
+
+}
+
+
+
+
+
+
+
+
+#plmeta {
+    border-radius: 4px;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+.videolist {
+    list-style: none outside none;
+    margin-left: 0;
+    max-height: 500px;
+    overflow-y: auto;
+box-shadow: 0px 0px white, 0em 0 .1em white;
+    background-image: url('');
+}
+
+
+
+
+
+
+
+
+
+#togglemotd .glyphicon {
+
+    font-size: 19pt;
+
+}
+
+
+#videowrap {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+
+.vertical-spacer {
+    margin-top: 3px;
+}
+
+
+.chat-timestamp {
+    font-size: 7pt;
+}
+
+.timestamp {
+    font-size: 2pt;
+    background-color: #111111;
+  opacity: 0.7;
+
+}
+
+
+.timestamp::before {
+
+content:">";
+    font-size: 11pt;
+    background-color: #333333;
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+.timestamp:hover {
+  opacity: 1;
+  transform: scale(4.5);
+    padding-left: 5px;
+    font-size: 15pt;
+    color: red;
+}
+
+
+#messagebuffer {
+    width: auto;
+    padding-left: 2px;
+    padding-right: 0px;
+    padding-top: 35px;
+    font-size: 14pt;
+    opacity: 0.95;
+    scrollbar-width: none; /* For Firefox */
+    text-shadow: 1px 1px 9px rgba(0,0,0,0.5);
+
+}
+
+
+#messagebuffer, #userlist {
+    height: 329px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-bottom: 8pt;
+box-shadow: 0px 0px white, 0em 0 .2em white;
+
+
+}
+
+
+
+
+
+
+
+#chatline, #guestlogin > input, #guestlogin > .input-group-addon {
+    margin-top: 0;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 13pt;
+box-shadow: 0px 0px white, 0em 0 .2em white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Smoothing default CyTube CSS (works without JS) ----- */
+
+
+
+	/* -- buttons -- */
+
+.btn {box-shadow: none;}
+
+	/* -- modal windows -- */
+
+@media screen and (min-width: 768px) {
+	.modal-dialog {max-width:820px; 
+margin-top:30px; 
+box-shadow: 0px 0px white, 0em 0em 4.9em white;
+
+}
+
+
+	/* -- brand -- */
+
+.navbar-brand {cursor:default}
+
+	/* -- MOTD -- */
+
+
+
+#motdwrap {
+
+padding:1px; 
+border-color:white; 
+box-shadow: 0px 0px white, 0em 0 .3em white;
+
+
+}
+#togglemotd {margin-top:-5px}
+
+	/* -- superadmin icon -- */
+
+.glyphicon-globe {margin-right:1px}
+
+	/* -- playlist row panes -- */
+
+#rightpane, #leftpane {margin-top:40px !important; margin-bottom:10px !important}
+
+	/* -- left pane wells -- */
+
+#leftpane .well {margin-bottom:5px}
+
+	/* -- queue titles -- */
+
+.qe_title {margin-left:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	/* -- footer -- */
+
+#footer::before {
+    content: "/";
+    font-weight: bold; /* Make the text bold */
+    color: #FFA500; /* Change the color to ? */
+    text-shadow: 0 0 10px rgba(255,255,255,0.1); /* Add a blurred shadow effect */
+    padding-bottom:1px; 
+    height:auto;
+}
+
+
+
+
+
+.navbar-brand::before {
+    content: "CarshieldBooba - ";
+    font-weight: bold; /* Make the text bold */
+    color: #FFA500; /* Change the color to ? */
+    text-shadow: 0 0 10px rgba(255,255,255,0.2); /* Add a blurred shadow effect */
+}
+
+body {
+    position: relative; /* Ensure positioning context for ::after pseudo-element */
+}
+
+body::after {
+    content: ""; /* Required for the pseudo-element */
+    position: absolute; /* Position it relative to the body */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the left */
+    width: 100%; /* Make it cover the entire body width */
+    height: 100%; /* Make it cover the entire body height */
+    background-image: url(''); /* Specify the path to your image */
+    opacity: 0.018; /* Adjust the transparency of the background image */
+    z-index: -1; /* Place it behind the content */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newmessages-indicator {
+    margin-top: -20px;
+    line-height: 30px;
+    height: 20px;
+    text-align: center;
+    width: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17pt;
+    opacity: 0.75;
+}
+
+
+.userlist_owner::after {
+    content: " ";
+background-color: none; 
+    text-shadow: none;
+    font-size: 17pt;
+padding-right: 0px;
+background-color: none; }
+
+
